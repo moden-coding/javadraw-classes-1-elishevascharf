@@ -28,4 +28,8 @@ public class App extends Window{
     public void start(){
 
     }
+
+    public void mouseDown(int button, Location loc) {
+        Spaceship mine = new Spaceship(screen, loc);
+    }
 }
